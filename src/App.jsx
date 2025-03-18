@@ -15,6 +15,7 @@ const App = () => {
     if(includeSpecialCharacters) chs+='!@#$%^&*()_+'  
 
     for(let i=0;i<length;i++){
+      
       const randomIndex=Math.floor(Math.random()*chs.length)
       pass+=chs[randomIndex]
     }
